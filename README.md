@@ -1,6 +1,8 @@
-# 19CS415-Implement-DES-Encryption-and-Decryption
+# Ex-7-Implement-DES-Encryption-and-Decryption
+
 ## Aim:
 Implementation of Pseudorandom Number Generation Using Standard library
+
 ## Design Steps:
 ### Step 1:
 Design of the DES algorithm.
@@ -8,8 +10,9 @@ Design of the DES algorithm.
 Implement using C or Python code.
 ### Step 3:
 The DES algorithm takes a 64-bit block of plaintext and a 56-bit key to perform encryption through a series of transformations, including permutation, substitution, and XOR operations. The encryption process involves 16 rounds of these transformations. The decryption process reverses the steps to retrieve the original message.
+
 ## Program:
-c
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -52,8 +55,9 @@ int main() {
 
     return 0;
 }
-
+```
 ## Output:
+![Screenshot 2024-10-10 093606](https://github.com/user-attachments/assets/e7deb34e-33bf-4987-8f0d-4b5526e6395b)
 
 ## Result:
 The program for DES algorith is executed successfully.
